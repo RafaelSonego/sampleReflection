@@ -15,7 +15,7 @@ public class EchoWorxTest {
 	@Before
 	public void openFile() {
 		try {
-			linesInstructions = new ArgumentFactory().getInstructions("instructions.txt");
+			linesInstructions = new ArgumentFactory().getInstructions("teste.txt");
 		} catch (Exception e) {
 			assertTrue(false);
 		}
