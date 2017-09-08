@@ -1,0 +1,4 @@
+SET A,5
+SET B,8
+ADD A,B
+SUBT B,2
